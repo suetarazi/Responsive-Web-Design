@@ -1,1 +1,2 @@
-# Responsive-Web-Design
+# 301-lab-01
+SMACSS and Responsive Web Design

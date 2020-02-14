@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box; 
+    padding: 0px;
+    margin: 0 px;
+    text-align: center;
+
+}
+
+
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 480px;
+}
+
+#a {
+    box-sizing: border-box;
+    height: 75px;
+    line-height: 75px;
+    border-style: solid;
+    border: solid 1px black;    
+    
+}
+
+#b {
+    box-sizing: border-box;
+    height: 150px;
+    line-height: 150px;
+    border-style: solid;
+    border: solid 1px black;    
+    
+}
+
+#c {
+    box-sizing: border-box;
+    height: 125px;
+    line-height: 125px;
+    border-style: solid;
+    border: solid 1px black;    
+    
+}
+
+
+#d {
+    box-sizing: border-box;
+    height: 125px;
+    line-height: 125px;
+    border-style: solid;
+    border: solid 1px black;    
+    
+}
+
+#efParent{
+    clear: both;
+}
+
+
+#e {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 50%;
+    line-height: 75px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: left;
+}
+
+#f {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 50%;
+    line-height: 75px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: right;
+}
+
+#ghParent{
+    clear: both;
+}
+
+
+#g {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 50%;
+    line-height: 75px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: left;    
+}
+
+#h {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 50%;
+    line-height: 75px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: right;
+}
+
+
+#i {
+    box-sizing: border-box;
+    height: 80px;
+    line-height: 80px;
+    border-style: solid;
+    border: solid 1px black;    
+    clear: both;
+}

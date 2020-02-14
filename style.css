@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box; 
+    padding: 0px;
+    margin: 0 px;
+    text-align: center;
+
+}
+
+
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    width: 960px;
+}
+
+#a {
+    box-sizing: border-box;
+    height: 100px;
+    line-height: 100px;
+    border-style: solid;
+    border: solid 1px black;    
+    
+}
+
+#b {
+    box-sizing: border-box;
+    height: 600px;
+    line-height: 6000px;
+    width: 200px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: left;
+}
+
+#mainParent{
+    float: right;
+}
+
+#cdParent{
+    width: 760px;
+    clear: both;
+}
+
+
+#c {
+    box-sizing: border-box;
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: left;    
+}
+
+
+#d {
+    box-sizing: border-box;
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: right;
+}
+
+
+#efParent{
+    clear: both;
+}
+
+
+#e, #f, #g, #h {
+    display: inline;
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    line-height: 75px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: left;
+}
+
+/* #f {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    line-height: 75px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: right;
+}
+#ghParent{
+    clear: both;
+}
+#g {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: left;    
+}
+#h {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: right;
+}
+ */
+
+#i {
+    box-sizing: border-box;
+    height: 150px;
+    line-height: 150px;
+    width: 760px;
+    border-style: solid;
+    border: solid 1px black;    
+    clear: both;
+}
