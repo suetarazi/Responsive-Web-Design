@@ -1,116 +1,147 @@
+/* @media (min-width: 600px){ */
 
 * {
     box-sizing: border-box; 
     padding: 0px;
-    margin: 0 px;
-    text-align: center;
+    margin: 1 px;
 
 }
-
 
 body{
-    background-color: lightpink;
+ 
+    background-color: lightgreen;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    width: 480px;
+    width: 700px; 
 }
 
+/* aside {
+    order: -1;
+}; */
+
+
+/* .centeredWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
 #a {
-    box-sizing: border-box;
-    height: 75px;
-    line-height: 75px;
+    background-color: red;
     border-style: solid;
     border: solid 1px black;    
-    
+    width: 100%;
 }
 
 #b {
-    box-sizing: border-box;
-    height: 150px;
-    line-height: 150px;
-    border-style: solid;
-    border: solid 1px black;    
     
-}
-
-#c {
-    box-sizing: border-box;
-    height: 125px;
-    line-height: 125px;
-    border-style: solid;
-    border: solid 1px black;    
-    
-}
-
-
-#d {
-    box-sizing: border-box;
-    height: 125px;
-    line-height: 125px;
-    border-style: solid;
-    border: solid 1px black;    
-    
-}
-
-#efParent{
-    clear: both;
-}
-
-
-#e {
-    box-sizing: border-box;
-    height: 250px;
-    line-height: 250px;
-    width: 50%;
-    line-height: 75px;
-    border-style: solid;
-    border: solid 1px black;    
-    float: left;
-}
-
-#f {
-    box-sizing: border-box;
-    height: 250px;
-    line-height: 250px;
-    width: 50%;
-    line-height: 75px;
+    background-color: orange; 
+    height: 600px;
+    line-height: 600px;
+    width: 20%;
     border-style: solid;
     border: solid 1px black;    
     float: right;
 }
 
-#ghParent{
-    clear: both;
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+      
 }
 
+/* #mainParent{
+    float: right;
+} */
 
-#g {
+/* #cdParent{
+    width: 760px;
+    clear: both;
+}
+*/
+
+#c {
     box-sizing: border-box;
-    height: 250px;
-    line-height: 250px;
-    width: 50%;
-    line-height: 75px;
+    height: 200px;
+    line-height: 200px;
+    width: 80%;
     border-style: solid;
     border: solid 1px black;    
     float: left;    
 }
 
-#h {
+
+/* #d {
+    box-sizing: border-box;
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: right;
+} */
+
+
+/* #efParent{
+    clear: both;
+} */
+
+
+#e, #f, #g, #h {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    line-height: 75px;
+    background-color: aqua;
+    border-style: solid;
+    border: solid 1px black;    
+    /* float: left; */
+} 
+
+/* #f {
     box-sizing: border-box;
     height: 250px;
     line-height: 250px;
-    width: 50%;
+    width: 190px;
     line-height: 75px;
     border-style: solid;
     border: solid 1px black;    
     float: right;
 }
-
+#ghParent{
+    clear: both;
+}
+#g {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: left;    
+}
+#h {
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+    border-style: solid;
+    border: solid 1px black;    
+    float: right;
+}
+ */
 
 #i {
     box-sizing: border-box;
-    height: 80px;
-    line-height: 80px;
+    background-color: purple;
+    height: 150px;
+    line-height: 150px;
+    width: 760px;
     border-style: solid;
     border: solid 1px black;    
-    clear: both;
+    /* clear: both; */
 }

@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box; 
     padding: 0px;
@@ -9,107 +8,133 @@
 
 
 body{
-    background-color: lightpink;
+    background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
-    width: 480px;
+    
+}
+
+body {
+    width: 960px;
+}
+
+main{
+    display: flex; 
 }
 
 #a {
     box-sizing: border-box;
-    height: 75px;
-    line-height: 75px;
+    background-color: red;
+    height: 100px;
+    line-height: 100px;
     border-style: solid;
     border: solid 1px black;    
     
 }
+
 
 #b {
     box-sizing: border-box;
-    height: 150px;
-    line-height: 150px;
+    background-color: yellow;
+    height: 600px;
+    line-height: 6000px;
+    width: 200px;
     border-style: solid;
     border: solid 1px black;    
-    
+    float: left;
 }
+
+#mainParent{
+    float: right;
+}
+
+#cdParent{
+    width: 760px;
+    clear: both;
+}
+
 
 #c {
     box-sizing: border-box;
-    height: 125px;
-    line-height: 125px;
+    background-color: orange;
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
     border-style: solid;
     border: solid 1px black;    
-    
+    float: left;    
 }
 
 
 #d {
     box-sizing: border-box;
-    height: 125px;
-    line-height: 125px;
+    background-color: limegreen;
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
     border-style: solid;
     border: solid 1px black;    
-    
+    float: right;
 }
+
 
 #efParent{
     clear: both;
 }
 
 
-#e {
+#e, #f, #g, #h {
+    /* display: inline; */
+    flex-wrap: wrap;
+    background-color: lightblue;
     box-sizing: border-box;
     height: 250px;
     line-height: 250px;
-    width: 50%;
+    width: 190px;
     line-height: 75px;
     border-style: solid;
     border: solid 1px black;    
     float: left;
 }
 
-#f {
+/* #f {
     box-sizing: border-box;
     height: 250px;
     line-height: 250px;
-    width: 50%;
+    width: 190px;
     line-height: 75px;
     border-style: solid;
     border: solid 1px black;    
     float: right;
 }
-
 #ghParent{
     clear: both;
 }
-
-
 #g {
     box-sizing: border-box;
     height: 250px;
     line-height: 250px;
-    width: 50%;
-    line-height: 75px;
+    width: 190px;
     border-style: solid;
     border: solid 1px black;    
     float: left;    
 }
-
 #h {
     box-sizing: border-box;
     height: 250px;
     line-height: 250px;
-    width: 50%;
-    line-height: 75px;
+    width: 190px;
     border-style: solid;
     border: solid 1px black;    
     float: right;
 }
-
+ */
 
 #i {
     box-sizing: border-box;
-    height: 80px;
-    line-height: 80px;
+    background-color: pink;
+    height: 150px;
+    line-height: 150px;
+    width: 760px;
     border-style: solid;
     border: solid 1px black;    
     clear: both;
